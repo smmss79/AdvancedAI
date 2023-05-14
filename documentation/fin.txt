@@ -1,0 +1,140 @@
+SVC(gamma=2, C=1),
+OneVsRestClassifier(SVC(gamma=2, C=1)),
+OneVsOneClassifier(SVC(gamma=2, C=1)),
+
+window_size = 256
+task_list = [1,2,3,7,11]
+ch_list = range(46,64)
+
+789554100
+
+Trial: 0
+
+model:  RBF SVM
+Train Time:  617143000
+Score:  0.6503006012024048
+
+model:  RBF SVM1
+Train Time:  1258291400
+Score:  0.6523046092184369
+
+model:  RBF SVM2
+Train Time:  600952200
+Score:  0.6513026052104208
+Trial: 1
+
+model:  RBF SVM
+Train Time:  593146900
+Score:  0.6322645290581163
+
+model:  RBF SVM1
+Train Time:  1266874300
+Score:  0.6372745490981964
+
+model:  RBF SVM2
+Train Time:  602375300
+Score:  0.6322645290581163
+Trial: 2
+
+model:  RBF SVM
+Train Time:  596364600
+Score:  0.6292585170340681
+
+model:  RBF SVM1
+Train Time:  1274030300
+Score:  0.6312625250501002
+
+model:  RBF SVM2
+Train Time:  601240800
+Score:  0.6312625250501002
+Trial: 3
+
+model:  RBF SVM
+Train Time:  596389700
+Score:  0.6482965931863728
+
+model:  RBF SVM1
+Train Time:  1269611900
+Score:  0.6503006012024048
+
+model:  RBF SVM2
+Train Time:  595835200
+Score:  0.6482965931863728
+Trial: 4
+
+model:  RBF SVM
+Train Time:  576146300
+Score:  0.62625250501002
+
+model:  RBF SVM1
+Train Time:  1250923700
+Score:  0.6182364729458918
+
+model:  RBF SVM2
+Train Time:  586251000
+Score:  0.6292585170340681
+Trial: 5
+
+model:  RBF SVM
+Train Time:  589782100
+Score:  0.6583166332665331
+
+model:  RBF SVM1
+Train Time:  1267068800
+Score:  0.6623246492985972
+
+model:  RBF SVM2
+Train Time:  578247300
+Score:  0.6583166332665331
+Trial: 6
+
+model:  RBF SVM
+Train Time:  578076600
+Score:  0.6462925851703407
+
+model:  RBF SVM1
+Train Time:  1251899500
+Score:  0.6442885771543087
+
+model:  RBF SVM2
+Train Time:  586102800
+Score:  0.6462925851703407
+Trial: 7
+
+model:  RBF SVM
+Train Time:  583080400
+Score:  0.6442885771543087
+
+model:  RBF SVM1
+Train Time:  1249332700
+Score:  0.6462925851703407
+
+model:  RBF SVM2
+Train Time:  585665100
+Score:  0.6432865731462926
+Trial: 8
+
+model:  RBF SVM
+Train Time:  567185400
+Score:  0.6382765531062125
+
+model:  RBF SVM1
+Train Time:  1229830900
+Score:  0.6412825651302605
+
+model:  RBF SVM2
+Train Time:  570734900
+Score:  0.6402805611222445
+Trial: 9
+
+model:  RBF SVM
+Train Time:  570149400
+Score:  0.6503006012024048
+
+model:  RBF SVM1
+Train Time:  1251726900
+Score:  0.654308617234469
+
+model:  RBF SVM2
+Train Time:  601662400
+Score:  0.6492985971943888

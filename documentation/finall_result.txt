@@ -1,0 +1,233 @@
+sample_subject_list = [0]
+
+window_size = 256
+task_list = [0,1,2,6,10] 
+ch_list = list(range(14,21))+list(range(44,64))
+
+LogisticRegression(max_iter=1000000,multi_class='multinomial', random_state=1),
+SVC(gamma=2, C=1),
+OneVsRestClassifier(SVC(gamma=2, C=1)),
+OneVsOneClassifier(SVC(gamma=2, C=1)),
+
+
+feature_extraction_time: 1089115500
+
+Trial: 0
+
+Voting:
+Train Time:  11037509800
+Score:  0.6341107871720116
+
+model:  Logistic Regression
+Train Time:  55878500
+Score:  0.6311953352769679
+
+model:  RBF SVM
+Train Time:  1033261100
+Score:  0.6807580174927114
+
+model:  RBF SVM1
+Train Time:  2186180500
+Score:  0.6800291545189504
+
+model:  RBF SVM2
+Train Time:  1020299200
+Score:  0.6807580174927114
+
+Trial: 1
+
+Voting:
+Train Time:  10900875500
+Score:  0.6559766763848397
+
+model:  Logistic Regression
+Train Time:  59869900
+Score:  0.6559766763848397
+
+model:  RBF SVM
+Train Time:  1010297300
+Score:  0.6989795918367347
+
+model:  RBF SVM1
+Train Time:  2150268300
+Score:  0.7004373177842566
+
+model:  RBF SVM2
+Train Time:  1006319700
+Score:  0.6989795918367347
+
+Trial: 2
+
+Voting:
+Train Time:  11144482400
+Score:  0.6457725947521866
+
+model:  Logistic Regression
+Train Time:  73827000
+Score:  0.6465014577259475
+
+model:  RBF SVM
+Train Time:  1131568400
+Score:  0.6960641399416909
+
+model:  RBF SVM1
+Train Time:  2226015400
+Score:  0.7004373177842566
+
+model:  RBF SVM2
+Train Time:  1037131000
+Score:  0.6960641399416909
+
+Trial: 3
+
+Voting:
+Train Time:  11198383700
+Score:  0.619533527696793
+
+model:  Logistic Regression
+Train Time:  60837800
+Score:  0.6209912536443148
+
+model:  RBF SVM
+Train Time:  1040222100
+Score:  0.6676384839650146
+
+model:  RBF SVM1
+Train Time:  2313807700
+Score:  0.6712827988338192
+
+model:  RBF SVM2
+Train Time:  1035259200
+Score:  0.6683673469387755
+
+Trial: 4
+
+Voting:
+Train Time:  11048454300
+Score:  0.619533527696793
+
+model:  Logistic Regression
+Train Time:  62859400
+Score:  0.6173469387755102
+
+model:  RBF SVM
+Train Time:  994343100
+Score:  0.6676384839650146
+
+model:  RBF SVM1
+Train Time:  2129325500
+Score:  0.6705539358600583
+
+model:  RBF SVM2
+Train Time:  987361300
+Score:  0.6676384839650146
+
+Trial: 5
+
+Voting:
+Train Time:  11188167800
+Score:  0.6494169096209913
+
+model:  Logistic Regression
+Train Time:  58869400
+Score:  0.6443148688046647
+
+model:  RBF SVM
+Train Time:  1018277000
+Score:  0.6982507288629738
+
+model:  RBF SVM1
+Train Time:  2184242700
+Score:  0.6953352769679301
+
+model:  RBF SVM2
+Train Time:  1025261900
+Score:  0.6982507288629738
+
+Trial: 6
+
+Voting:
+Train Time:  10992604300
+Score:  0.6377551020408163
+
+model:  Logistic Regression
+Train Time:  61859300
+Score:  0.6377551020408163
+
+model:  RBF SVM
+Train Time:  1009327600
+Score:  0.6800291545189504
+
+model:  RBF SVM1
+Train Time:  2186152600
+Score:  0.6829446064139941
+
+model:  RBF SVM2
+Train Time:  1016286000
+Score:  0.6800291545189504
+
+Trial: 7
+
+Voting:
+Train Time:  10968664300
+Score:  0.6392128279883382
+
+model:  Logistic Regression
+Train Time:  67846300
+Score:  0.6370262390670554
+
+model:  RBF SVM
+Train Time:  1013290000
+Score:  0.6960641399416909
+
+model:  RBF SVM1
+Train Time:  2153242900
+Score:  0.6967930029154519
+
+model:  RBF SVM2
+Train Time:  1006341400
+Score:  0.6960641399416909
+
+Trial: 8
+
+Voting:
+Train Time:  11118339200
+Score:  0.6537900874635568
+
+model:  Logistic Regression
+Train Time:  61862800
+Score:  0.6508746355685131
+
+model:  RBF SVM
+Train Time:  1011295800
+Score:  0.7018950437317785
+
+model:  RBF SVM1
+Train Time:  2173247800
+Score:  0.7055393586005831
+
+model:  RBF SVM2
+Train Time:  1017252700
+Score:  0.7018950437317785
+
+Trial: 9
+
+Voting:
+Train Time:  10962705300
+Score:  0.6384839650145773
+
+model:  Logistic Regression
+Train Time:  58872800
+Score:  0.6362973760932945
+
+model:  RBF SVM
+Train Time:  1017266700
+Score:  0.6895043731778425
+
+model:  RBF SVM1
+Train Time:  2184161400
+Score:  0.6873177842565598
+
+model:  RBF SVM2
+Train Time:  1010326700
+Score:  0.6895043731778425

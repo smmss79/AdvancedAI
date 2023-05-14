@@ -1,0 +1,95 @@
+window_size = 256
+task_list = [3,7,11]
+ch_list = range(46,64)
+
+375041500
+model:  Nearest Neighbors
+Train Time:  13959000
+Score:  0.5756172839506173
+model:  RBF SVM
+Train Time:  241442500
+Score:  0.5910493827160493
+model:  Neural Net
+Train Time:  3505918800
+Score:  0.5324074074074074
+model:  Nearest Neighbors
+Train Time:  10998900
+Score:  0.5632716049382716
+model:  RBF SVM
+Train Time:  246444100
+Score:  0.5570987654320988
+model:  Neural Net
+Train Time:  5637142000
+Score:  0.5200617283950617
+model:  Nearest Neighbors
+Train Time:  8986400
+Score:  0.5925925925925926
+model:  RBF SVM
+Train Time:  240469800
+Score:  0.595679012345679
+model:  Neural Net
+Train Time:  4604069600
+Score:  0.5462962962962963
+model:  Nearest Neighbors
+Train Time:  11972900
+Score:  0.595679012345679
+model:  RBF SVM
+Train Time:  243245600
+Score:  0.6188271604938271
+model:  Neural Net
+Train Time:  1476134400
+Score:  0.5231481481481481
+model:  Nearest Neighbors
+Train Time:  8970300
+Score:  0.566358024691358
+model:  RBF SVM
+Train Time:  236723000
+Score:  0.5972222222222222
+model:  Neural Net
+Train Time:  3368720200
+Score:  0.5833333333333334
+model:  Nearest Neighbors
+Train Time:  8975700
+Score:  0.5771604938271605
+model:  RBF SVM
+Train Time:  250444400
+Score:  0.6003086419753086
+model:  Neural Net
+Train Time:  2164100900
+Score:  0.5447530864197531
+model:  Nearest Neighbors
+Train Time:  7978400
+Score:  0.5910493827160493
+model:  RBF SVM
+Train Time:  237384600
+Score:  0.5941358024691358
+model:  Neural Net
+Train Time:  1071226000
+Score:  0.4799382716049383
+model:  Nearest Neighbors
+Train Time:  9980200
+Score:  0.6049382716049383
+model:  RBF SVM
+Train Time:  248446500
+Score:  0.6111111111111112
+model:  Neural Net
+Train Time:  4495380600
+Score:  0.5385802469135802
+model:  Nearest Neighbors
+Train Time:  7993400
+Score:  0.5771604938271605
+model:  RBF SVM
+Train Time:  235811600
+Score:  0.5941358024691358
+model:  Neural Net
+Train Time:  3172056900
+Score:  0.5864197530864198
+model:  Nearest Neighbors
+Train Time:  7980200
+Score:  0.5771604938271605
+model:  RBF SVM
+Train Time:  236728100
+Score:  0.5833333333333334
+model:  Neural Net
+Train Time:  3489664100
+Score:  0.5478395061728395

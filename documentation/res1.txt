@@ -1,0 +1,183 @@
+classifiers = [
+    KNeighborsClassifier(5),
+    SVC(gamma=2, C=1),
+    OneVsRestClassifier(SVC(gamma=2, C=1)),
+    OneVsOneClassifier(SVC(gamma=2, C=1)),
+]
+
+window_size = 256
+task_list = [1,2,3,7,11]
+ch_list = range(46,64)
+
+706290300
+
+Trial: 0
+
+model:  Nearest Neighbors
+Train Time:  19417800
+Score:  0.6112224448897795
+
+model:  RBF SVM
+Train Time:  556838600
+Score:  0.6142284569138277
+
+model:  RBF SVM1
+Train Time:  1209590500
+Score:  0.6082164328657315
+
+model:  RBF SVM2
+Train Time:  570663700
+Score:  0.6122244488977956
+Trial: 1
+
+model:  Nearest Neighbors
+Train Time:  12992600
+Score:  0.5921843687374749
+
+model:  RBF SVM
+Train Time:  552899300
+Score:  0.6072144288577155
+
+model:  RBF SVM1
+Train Time:  1222350700
+Score:  0.6112224448897795
+
+model:  RBF SVM2
+Train Time:  558495900
+Score:  0.6072144288577155
+Trial: 2
+
+model:  Nearest Neighbors
+Train Time:  12969500
+Score:  0.5971943887775552
+
+model:  RBF SVM
+Train Time:  557886600
+Score:  0.6212424849699398
+
+model:  RBF SVM1
+Train Time:  1203790300
+Score:  0.6182364729458918
+
+model:  RBF SVM2
+Train Time:  571806100
+Score:  0.6212424849699398
+Trial: 3
+
+model:  Nearest Neighbors
+Train Time:  14990200
+Score:  0.5881763527054108
+
+model:  RBF SVM
+Train Time:  549338400
+Score:  0.5981963927855711
+
+model:  RBF SVM1
+Train Time:  1234393600
+Score:  0.6042084168336673
+
+model:  RBF SVM2
+Train Time:  554139300
+Score:  0.5981963927855711
+Trial: 4
+
+model:  Nearest Neighbors
+Train Time:  12952600
+Score:  0.5961923847695391
+
+model:  RBF SVM
+Train Time:  555118100
+Score:  0.6312625250501002
+
+model:  RBF SVM1
+Train Time:  1219573200
+Score:  0.6312625250501002
+
+model:  RBF SVM2
+Train Time:  551968900
+Score:  0.6322645290581163
+Trial: 5
+
+model:  Nearest Neighbors
+Train Time:  15976900
+Score:  0.5871743486973948
+
+model:  RBF SVM
+Train Time:  550108200
+Score:  0.6202404809619239
+
+model:  RBF SVM1
+Train Time:  1202711200
+Score:  0.624248496993988
+
+model:  RBF SVM2
+Train Time:  552359500
+Score:  0.6202404809619239
+Trial: 6
+
+model:  Nearest Neighbors
+Train Time:  13962600
+Score:  0.5801603206412825
+
+model:  RBF SVM
+Train Time:  541248900
+Score:  0.6102204408817635
+
+model:  RBF SVM1
+Train Time:  1192819200
+Score:  0.6062124248496994
+
+model:  RBF SVM2
+Train Time:  537402600
+Score:  0.6122244488977956
+Trial: 7
+
+model:  Nearest Neighbors
+Train Time:  12954400
+Score:  0.591182364729459
+
+model:  RBF SVM
+Train Time:  573495500
+Score:  0.6212424849699398
+
+model:  RBF SVM1
+Train Time:  1204561100
+Score:  0.62625250501002
+
+model:  RBF SVM2
+Train Time:  555397500
+Score:  0.6222444889779559
+Trial: 8
+
+model:  Nearest Neighbors
+Train Time:  15960300
+Score:  0.6082164328657315
+
+model:  RBF SVM
+Train Time:  547905000
+Score:  0.6232464929859719
+
+model:  RBF SVM1
+Train Time:  1179733100
+Score:  0.6232464929859719
+
+model:  RBF SVM2
+Train Time:  556519100
+Score:  0.624248496993988
+Trial: 9
+
+model:  Nearest Neighbors
+Train Time:  12990100
+Score:  0.5971943887775552
+
+model:  RBF SVM
+Train Time:  545850400
+Score:  0.627254509018036
+
+model:  RBF SVM1
+Train Time:  1203846600
+Score:  0.627254509018036
+
+model:  RBF SVM2
+Train Time:  570914800
+Score:  0.627254509018036
